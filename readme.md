@@ -1,4 +1,4 @@
-# Serverless Clickstream ETL Pipeline on AWS (Medallion Architecture)
+# Serverless Eventstream ETL Pipeline on AWS (Medallion Architecture)
 
 [![AWS](https://img.shields.io/badge/AWS-Glue-orange)](https://aws.amazon.com/glue/)
 [![Spark](https://img.shields.io/badge/PySpark-3.5-blue)](https://spark.apache.org/)
@@ -9,6 +9,8 @@ End-to-end data pipeline that transforms raw e‑commerce clickstream events int
 - **Analytics-ready data marts** (daily KPIs, product performance, funnel analysis)
 - **ML feature store** (user-level features for churn & purchase propensity)
 - **Business dashboards** (Power BI connected to Athena)
+
+NOTE: Only the jobs code has been uploaded. In AWS, each job has its own Glue crawler.
 
 Built entirely on AWS with a medallion architecture (Bronze → Silver → Gold) using **PySpark on AWS Glue**.
 
