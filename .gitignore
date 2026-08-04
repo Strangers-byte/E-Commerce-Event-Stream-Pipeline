@@ -1,0 +1,17 @@
+# Credentials & environment files
+ecom_env/
+.env
+*.env
+credentials
+kaggle.json
+*.pem
+
+# Spark temp & Python caches
+/spark-warehouse/
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+setup/
